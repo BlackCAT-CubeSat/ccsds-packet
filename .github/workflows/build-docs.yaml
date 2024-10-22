@@ -17,7 +17,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: rustup toolchain install nightly --profile minimal
-      - uses: Swatinem/rust-cache@v2.4.0
       - name: Run 'cargo doc'
         run: cargo +nightly doc --release --no-deps --lib -Zrustdoc-map
       - name: Push to gh-pages (main branch)
