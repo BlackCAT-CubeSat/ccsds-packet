@@ -3,6 +3,7 @@ name = "ccsds-packet"
 version = "0.0.0"
 edition = "2021"
 description = "Thin structure wrapper for convenience when working with C structures as CCSDS packets"
+license = "Apache-2.0 OR MIT"
 
 [features]
 default = ["std"]
