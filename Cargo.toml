@@ -4,4 +4,8 @@ version = "0.0.0"
 edition = "2021"
 description = "Thin structure wrapper for convenience when working with C structures as CCSDS packets"
 
+[features]
+default = ["std"]
+std = []
+
 [dependencies]
